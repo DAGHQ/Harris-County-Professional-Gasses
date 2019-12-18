@@ -21,6 +21,9 @@ $url = rtrim($url, '/');
 $url = ltrim($url, '/');
 $url = explode('/', $url);
 
+Helpers::dnd($url);
+
+
 if(!empty($url)) {
 	$controller_name = $url[0];
 } else {
@@ -51,4 +54,5 @@ if(!empty($url)) {
 		echo "display page not found";
 	}
 }
+
 
