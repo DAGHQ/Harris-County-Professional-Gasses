@@ -2,5 +2,21 @@ body{
 	background-color: #EEEEEE;
 }
 .jumbotron{
-	background-color: #33BB00;
+	background-color: darkgreen;
+}
+#top_jumbo{
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 50px;
+	margin-top: 10px;
+	color: white;
+}
+.form-group{
+	margin-right: -65px;
+	
+}
+#Mid_Jumbo{
+	padding-bottom: 20px;
+	padding-top: 40px;
+
 }
