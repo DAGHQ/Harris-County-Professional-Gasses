@@ -7,7 +7,7 @@
 	define('APP_NAME', 'HCPG');
 
 	//Application Default Controller
-	define('DEFAULT_CONTROLLER', 'Home');
+	define('DEFAULT_CONTROLLER', 'home');
 
 	//Application Default Executed Action 
 	//please dont change this if you dont know what its for
@@ -40,7 +40,7 @@
 	define('DB_HOST', "127.0.0.1");
 	define('DB_USER', "root");
 	define('DB_PASS', "");
-	define('DB_NAME', "fallout_solutions");
+	define('DB_NAME', "hcpg");
 	
 	/*=====  End of DATABASE CONFIG  ======*/
 

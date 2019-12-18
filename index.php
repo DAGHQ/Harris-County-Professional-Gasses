@@ -21,8 +21,9 @@ $url = rtrim($url, '/');
 $url = ltrim($url, '/');
 $url = explode('/', $url);
 
-Helpers::dnd($url);
-
+if($url[0] === "") {
+	array_shift($url);
+}
 
 if(!empty($url)) {
 	$controller_name = $url[0];
