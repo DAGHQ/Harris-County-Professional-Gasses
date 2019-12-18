@@ -4,4 +4,3 @@ class Home {
 		View::render("Home" . DS . "index");
 	}
 }
-?>
