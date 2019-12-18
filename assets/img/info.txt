@@ -1,0 +1,2 @@
+Downloads path should look like this
+image type folder/image file
