@@ -44,7 +44,7 @@ div nav ul li a {
 }
 
 div nav ul li a:hover {
-	border: none;
+	text-decoration: none;
 	transition: .7s;
-	color: darkgreen;
+	color: lightgreen;
 }
