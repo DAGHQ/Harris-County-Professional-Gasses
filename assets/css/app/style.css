@@ -1,8 +1,9 @@
 body{
 	background-color: #EEEEEE;
+	overflow-x: hidden;
 }
 .jumbotron{
-	background-color: darkgreen;
+	background-color: #32a852;
 }
 #top_jumbo{
 	margin: 0px;
@@ -19,4 +20,31 @@ body{
 	padding-bottom: 20px;
 	padding-top: 40px;
 
+}
+
+.bg-green {
+	background-color: #32a852;
+}
+
+.nav-bar-top {
+	box-shadow: 4px 4px 4px solid black;
+}
+
+div nav ul {
+	list-style-type: none;
+}
+
+div nav ul li {
+	display: inline-block;
+	padding: 10px;
+}
+
+div nav ul li a {
+	color: darkgreen;
+}
+
+div nav ul li a:hover {
+	border: none;
+	transition: .7s;
+	color: darkgreen;
 }
