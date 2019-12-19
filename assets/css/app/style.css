@@ -27,7 +27,7 @@ body{
 }
 
 .nav-bar-top {
-	box-shadow: 4px 4px 4px solid black;
+	box-shadow: 4px 4px 4px black;
 }
 
 div nav ul {
@@ -47,4 +47,11 @@ div nav ul li a:hover {
 	text-decoration: none;
 	transition: .7s;
 	color: lightgreen;
+}
+
+.header-brand {
+	padding: 10px;
+	border-radius: 10px;
+	border-bottom: 4px solid lightgreen;
+	box-shadow: 5px lightgreen;
 }

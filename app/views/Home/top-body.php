@@ -1,5 +1,5 @@
 <div class="container">
-		<div class="row">
+		<div class="row bg-light header-brand">
 			<h1 class="col-md-4 text-left">Harris County Professional &nbsp; Gases</h1>
 			<div class="jumbotron col-md-4 text-center" id="top_jumbo">
 				<p>Company Email</p>
