@@ -19,4 +19,3 @@
 		</div>
 	</div>
 	<br>
-	<h5 class= "text-center">Sample text for creating your account below</h5>

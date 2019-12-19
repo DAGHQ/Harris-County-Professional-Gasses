@@ -1,3 +1,4 @@
+<h5 class= "text-center">Sample text for creating your account below</h5>
 <div class="container">
 		<div class="row">
 			<div class="col-md-1"></div>
