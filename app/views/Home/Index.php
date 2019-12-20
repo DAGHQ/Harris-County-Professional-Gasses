@@ -11,7 +11,7 @@
 <body>
 	<?php View::inc("navbar-top"); ?>
 	<br>
-	<?php View::page("Home", "top-body"); ?>
+	<?php View::inc("top-body"); ?>
 	
 	<?php View::page('Home', "mid-body"); ?>
 
