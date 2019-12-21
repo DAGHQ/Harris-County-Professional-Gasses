@@ -2,6 +2,18 @@
 	<div class="col-md-3"></div>
 	<div class="col-md-6 user-form">
 		<form action="" method="post" class="">
+			<?php  
+				if(isset($_SESSION['errors'])) {
+					$errors = $_SESSION['errors'];
+					echo "<div class='alert alert-danger'>";
+					foreach($errors as $error) {
+						echo $error . "<br>";
+					}
+					echo "</div>";
+
+					unset($_SESSION['errors']);
+				}
+			?>
 			<div class="form-group">
 				<label for="username">Username Or Email: </label>
 				<input type="text" class="form-control" placeholder="Username or Email" name="username" autocomplete="off" id="username">
