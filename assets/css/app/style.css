@@ -70,3 +70,8 @@ div.user-form {
 .user-form input[type=submit] {
 	color: white;
 }
+#contact_jumbo{
+	padding-bottom: 20px;
+	padding-top: 40px;
+	box-shadow: 5px 5px 5px green;
+}
