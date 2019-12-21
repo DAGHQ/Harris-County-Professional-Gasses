@@ -12,4 +12,8 @@ class View {
 	public static function page($page, $view) {
 		self::render($page . DS . $view);
 	}
+
+	public static function form($form) {
+		self::render("inc" . DS . "forms" . DS . $form);
+	}
 }
