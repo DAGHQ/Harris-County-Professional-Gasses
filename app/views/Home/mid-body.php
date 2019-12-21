@@ -30,7 +30,11 @@
 					<div class="form-group">
 						<div class="row">
 							<div class="col-md-2"></div>
-							<div class="col-md-7">
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<div class="col-md-3">
+								<input type="Reset" class="form-control">
+							</div>
+							<div class="col-md-3">
 								<input type="Submit" class="form-control">
 							</div>
 							<div class="col-md-2"></div>

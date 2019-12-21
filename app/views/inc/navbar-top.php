@@ -1,8 +1,8 @@
 <div class="nav-bar-top bg-green text-center">
 		<nav>
 			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
+				<li><a href="/Home">Home</a></li>
+				<li><a href="/About">About</a></li>
 				<li><a href="#">Support</a></li>
 				<li><a href="#">Contact Us</a></li>
 				<li><a href="#">Login</a></li>
