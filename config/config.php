@@ -12,6 +12,10 @@
 	//Application Default Executed Action 
 	//please dont change this if you dont know what its for
 	define("DEFAULT_ACTION", 'index');
+
+	define("SSL", 'HTTP');
+
+	define("SITE_URL", 'localhost');
 	
 	
 	

@@ -4,22 +4,30 @@
 		<form action="/register/submit" method="post" class="">
 			<?php  
 				if(isset($_SESSION['errors'])) {
-					$errors = $_SESSION['errors'];
+					$errors = Session::get('errors');
 					echo "<div class='alert alert-danger'>";
 					foreach($errors as $error) {
 						echo $error . "<br>";
 					}
 					echo "</div>";
+					$user = Session::get('fields');
+
+					$username = $user['username'];
+					$email = $user['email'];
 					unset($_SESSION['errors']);
+					unset($_SESSION['fields']);
+				} else {
+					$username = '';
+					$email = '';
 				}
 			?>
 			<div class="form-group">
 				<label for="username">Username: </label>
-				<input type="text" class="form-control" placeholder="Username" name="username" autocomplete="off" id="username">
+				<input type="text" class="form-control" placeholder="Username" name="username" autocomplete="off" id="username" value="<?php echo $username ?>">
 			</div>
 			<div class="form-group">
 				<label for="email">Email: </label>
-				<input type="email" class="form-control" placeholder="Email" name="email" autocomplete="off" id="email">
+				<input type="email" class="form-control" placeholder="Email" name="email" autocomplete="off" id="email" value="<?php echo $email ?>">
 			</div>
 			<div class="form-group">
 				<label for="password">Password: </label>
