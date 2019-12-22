@@ -56,7 +56,7 @@ class Login {
 				$d2 = new Datetime("now");
 
 
-				DB::getInstance()->update('users', $user_id, 'user_id', 'user_lastlogin',$d2->format('U'));
+				DB::getInstance()->update('users', $user_id, 'user_id', 'user_lastlogin', date('m-d-Y'));
 
 				Helper::redirect("/dashboard");
 			}
