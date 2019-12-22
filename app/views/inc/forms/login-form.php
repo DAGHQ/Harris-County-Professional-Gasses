@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="col-md-3"></div>
 	<div class="col-md-6 user-form">
-		<form action="" method="post" class="">
+		<form action="/login/submit" method="post" class="">
 			<?php  
 				if(isset($_SESSION['errors'])) {
 					$errors = $_SESSION['errors'];
@@ -12,6 +12,12 @@
 					echo "</div>";
 
 					unset($_SESSION['errors']);
+				}
+
+				if(isset($_SESSION['Flash_Message'])) {
+					echo "<div class='alert alert-success'>";
+					Session::flash('Flash_Message');
+					echo "</div>";
 				}
 			?>
 			<div class="form-group">

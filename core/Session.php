@@ -13,10 +13,15 @@ class Session {
 	}
 
 	public static function message($value) {
-		self::create('Flash Message', $value);
+		self::create('Flash_Message', $value);
+	}
+
+	public static function delete($name) {
+		unset($_SESSION[$name]);
 	}
 
 	public static function flash($name) {
 		self::get($name, true);
+		self::delete($name);
 	}
 }
